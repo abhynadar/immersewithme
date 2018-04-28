@@ -18,15 +18,15 @@ class NavComponent extends React.Component {
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                   <ul className="nav navbar-nav">
-                    <li className="active"><a href="#">Home</a></li>
+                    <li className="active"><a href="/home">Home</a></li>
                     <li className="dropdown">
-                      <a className="dropdown-toggle" data-toggle="dropdown" href="#">Languages<span className="caret"></span></a>
+                      <a className="dropdown-toggle" data-toggle="dropdown" href="/languages">Languages<span className="caret"></span></a>
                       <ul className="dropdown-menu">
-                        <li><a href="#">C#</a></li>
-                        <li><a href="#">Python</a></li>
+                        <li><a href="/languages/csharp">C#</a></li>
+                        <li><a href="/languages/python">Python</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Photography</a></li>
+                    <li><a href="/photography">Photography</a></li>
                   </ul>
                   <ul className="nav navbar-nav navbar-right">
                     <li><a href="#"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>

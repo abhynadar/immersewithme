@@ -1,11 +1,9 @@
 //@flow
 import React from 'react';
 import logo from '../../../images/logo.png';
+import NavComponent from '../nav/nav';
 
-class HeaderComponent extends React.Component {
-
-  render() {
-
+const Header = () => {
     return (
       <section >
         <header >
@@ -26,11 +24,12 @@ class HeaderComponent extends React.Component {
                     </li>
                 </ul>
             </div>
+
+            <NavComponent />
         </header>
       </section>
     );
-  }
 }
 
 
-export default HeaderComponent;
+export default Header;

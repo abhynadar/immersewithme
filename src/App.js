@@ -28,7 +28,6 @@ class App extends Component {
                       </li>
                   </ul>
 
-
                   <nav className="navbar navbar-inverse">
                     <div className="container-fluid">
                       <div className="navbar-header">
