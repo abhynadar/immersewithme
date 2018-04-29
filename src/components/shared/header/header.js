@@ -23,9 +23,9 @@ const Header = () => {
                         <a href="#0" rel="nofollow" target="_blank"><i className="fa fa-github" aria-hidden="true"></i><span className="social-noshow"> Github</span></a>
                     </li>
                 </ul>
-            </div>
 
-            <NavComponent />
+                <NavComponent />
+            </div>
         </header>
       </section>
     );

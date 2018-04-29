@@ -4,12 +4,12 @@ import React from 'react';
 import Content from '../../shared/content/content';
 //import  HomePage  from './homePage';
 
-class HomePageContainer extends React.Component {
+class SignUpPageContainer extends React.Component {
   render() {
     return (
-      <Content {...this.props} pageName="home"/>
+      <Content {...this.props} pageName="signup"/>
     );
   }
 }
 
-export default HomePageContainer;
+export default SignUpPageContainer;

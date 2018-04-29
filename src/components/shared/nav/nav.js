@@ -14,7 +14,7 @@ class NavComponent extends React.Component {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                   </button>
-                  <a className="navbar-brand" href="#">Immerse</a>
+                  <a className="navbar-brand" href="/">Immerse</a>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                   <ul className="nav navbar-nav">
@@ -29,8 +29,8 @@ class NavComponent extends React.Component {
                     <li><a href="/photography">Photography</a></li>
                   </ul>
                   <ul className="nav navbar-nav navbar-right">
-                    <li><a href="#"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="/signup"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
                   </ul>
                 </div>
               </div>
